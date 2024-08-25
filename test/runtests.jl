@@ -1,4 +1,4 @@
 using Test
 
 
-include("test_julia.jl")
+include("../src/test_julia.jl")
