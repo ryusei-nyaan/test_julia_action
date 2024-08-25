@@ -2,3 +2,6 @@ name = "test_julia"
 uuid = "3406e0f3-3732-429f-8be8-a8591d69ec14"
 authors = ["ryusei-nyaan <r.s.iwasaki@ezweb.ne.jp>"]
 version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
