@@ -1,4 +1,6 @@
 using Test
+using test_julia
 
 
-include("../src/test_julia.jl")
+@test test_julia.f(1,2) == 5
+@test test_julia.f(2,3) == 9
